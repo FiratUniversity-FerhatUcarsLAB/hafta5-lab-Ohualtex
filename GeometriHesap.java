@@ -128,6 +128,6 @@ public class GeometriHesap {
         System.out.printf("  Cevre     : %.2f cm%n%n", ucgenCevre);
 
         System.out.println("========================================");
-        sc.close();
+        read.close();
     }
 }
