@@ -62,26 +62,39 @@ public class FizikFormul {
         
     // temel ölçümler
         System.out.println("TEMEL OLCUMLER:");
+        
         System.out.print("Kutle (kg): ");
         double mass = hollow.nextDouble();
+        
         System.out.print("Mesafe (m): ");
         double distance = hollow.nextDouble();
+        
         System.out.print("Zaman (s): ");
         double time = hollow.nextDouble();
+        
         System.out.print("Hiz degisimi (m/s): ");
         double deltaV = hollow.nextDouble();
+        
         System.out.print("Yukseklik (m): ");
         double height = hollow.nextDouble();
 
         // hesaplamalar (yalnizca metot cagirilir)
         double velocity = calculateVelocity(distance, time);
+        
         double acceleration = calculateAcceleration(deltaV, time);
+        
         double force = calculateForce(mass, acceleration);
+        
         double work = calculateWork(force, distance);
+        
         double power = calculatePower(work, time);
+        
         double kineticEnergy = calculateKineticEnergy(mass, velocity);
+        
         double potentialEnergy = calculatePotentialEnergy(mass, GRAVITY, height);
+        
         double totalEnergy = kineticEnergy + potentialEnergy;
+        
         double momentum = calculateMomentum(mass, velocity);
 
         // çıktılar
