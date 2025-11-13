@@ -59,7 +59,8 @@ public class FizikFormul {
         Scanner hollow = new Scanner(System.in);
 
         System.out.println("=== FIZIK FORMUL ASISTANI ===\n");
-
+        
+    // temel ölçümler
         System.out.println("TEMEL OLCUMLER:");
         System.out.print("Kutle (kg): ");
         double mass = hollow.nextDouble();
