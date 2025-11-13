@@ -84,14 +84,19 @@ public class GeometriHesap {
         System.out.println("UCGEN:");
         System.out.print("Taban (cm): ");
         double ucgenTaban = read.nextDouble();
+        
         System.out.print("Yukseklik (cm): ");
         double ucgenYukseklik = read.nextDouble();
+        
         System.out.print("1. kenar (cm): ");
         double a = read.nextDouble();
+        
         System.out.print("2. kenar (cm): ");
         double b = read.nextDouble();
+        
         System.out.print("3. kenar (cm): ");
         double c = read.nextDouble();
+        
 
         // Hesaplamalar (sadece metot çağrıları)
         double kareAlan = calculateSquareArea(kareKenar);
